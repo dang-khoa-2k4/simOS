@@ -1,0 +1,376 @@
+Time slot   0---------------------------------
+ld_routine
+	Loaded a process at input/proc/alloc_full, PID: 1 PRIO: 0
+Time slot   1---------------------------------
+	CPU 0: Dispatched process  1 at 1
+CURRENT TIME 1 MALLOC 1
+print_pgtbl for vmaid 0: 0 - 0
+print_pgtbl for vmaid 1: 3145727 - 3145472
+00049148: 80000000
+	Loaded a process at input/proc/alloc_full_2, PID: 2 PRIO: 0
+Time slot   2---------------------------------
+	CPU 1: Dispatched process  2 at 2
+CURRENT TIME 2 MALLOC 2
+CURRENT TIME 2 MALLOC 1
+print_pgtbl for vmaid 0: 0 - 0
+print_pgtbl for vmaid 1: 3145727 - 3145472
+00049148: 80000000
+print_pgtbl for vmaid 0: 0 - 0
+print_pgtbl for vmaid 1: 3145727 - 3145472
+00049148: 80000001
+CURRENT TIME 3 MALLOC 2
+print_pgtbl for vmaid 0: 0 - 0
+print_pgtbl for vmaid 1: 3145727 - 3145472
+00049148: 80000001
+Time slot   3---------------------------------
+	CPU 0: Put process  1 to run queue at 3
+	CPU 0: Dispatched process  1 at 3
+CURRENT TIME 3 MALLOC 1
+print_pgtbl for vmaid 0: 0 - 0
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+Time slot   4---------------------------------
+CURRENT TIME 4 ALLOC 1
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000005
+00000004: 80000004
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+	CPU 1: Put process  2 to run queue at 4
+	CPU 1: Dispatched process  2 at 4
+CURRENT TIME 4 MALLOC 2
+print_pgtbl for vmaid 0: 0 - 0
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+Time slot   5---------------------------------
+CURRENT TIME 5 ALLOC 2
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+	CPU 0: Put process  1 to run queue at 5
+	CPU 0: Dispatched process  1 at 5
+CURRENT TIME 5 FREE 1
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000005
+00000004: 80000004
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+Time slot   6---------------------------------
+	CPU 1: Put process  2 to run queue at 6
+	CPU 1: Dispatched process  2 at 6
+CURRENT TIME 6 FREE 2
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+CURRENT TIME 6 ALLOC 1
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+Time slot   7---------------------------------
+CURRENT TIME 7 ALLOC 2
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+	CPU 0: Put process  1 to run queue at 7
+	CPU 0: Dispatched process  1 at 7
+CURRENT TIME 7 WRITE 1
+write region=5 offset=10 value=120
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+Time slot   8---------------------------------
+	CPU 1: Put process  2 to run queue at 8
+	CPU 1: Dispatched process  2 at 8
+CURRENT TIME 8 WRITE 2
+write region=5 offset=10 value=120
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+CURRENT TIME 8 WRITE 1
+write region=1 offset=10 value=111
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+address 0x00000909: 120
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+frame: 0----------------------
+Invalid
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+Time slot   9---------------------------------
+	CPU 0: Put process  1 to run queue at 9
+	CPU 0: Dispatched process  1 at 9
+CURRENT TIME 9 READ 1
+Invalid
+read region=1 offset=10 value=33
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+address 0x00000909: 120
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+CURRENT TIME 9 WRITE 2
+write region=2 offset=10 value=111
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+address 0x00000909: 120
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+Time slot  10---------------------------------
+	CPU 1: Put process  2 to run queue at 10
+	CPU 1: Dispatched process  2 at 10
+CURRENT TIME 10 READ 2
+read region=2 offset=10 value=111
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+address 0x00000909: 120
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+address 0x00000142: 111
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+CURRENT TIME 10 READ 1
+Invalid
+read region=4 offset=1002 value=20
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+address 0x00000909: 120
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+address 0x00000142: 111
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 1023
+00000000: 80000005
+00000004: 80000004
+00000008: 8000000b
+00000012: 8000000a
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000000
+00049144: 80000003
+00049140: 80000002
+Time slot  11---------------------------------
+CURRENT TIME 11 READ 2
+Invalid
+read region=4 offset=1002 value=20
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+frame: 10----------------------
+frame: 11----------------------
+frame: 8----------------------
+frame: 9----------------------
+address 0x00000909: 120
+frame: 6----------------------
+frame: 7----------------------
+frame: 4----------------------
+address 0x000004fd: 120
+frame: 5----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 1----------------------
+address 0x00000142: 111
+frame: 0----------------------
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000009
+00000004: 80000008
+print_pgtbl for vmaid 1: 3145727 - 3144960
+00049148: 80000001
+00049144: 80000007
+00049140: 80000006
+	CPU 0: Processed  1 has finished at 11
+	CPU 0 stopped at 11
+Time slot  12---------------------------------
+	CPU 1: Processed  2 has finished at 12
+	CPU 1 stopped at 12

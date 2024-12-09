@@ -1,0 +1,338 @@
+Time slot   0---------------------------------
+ld_routine
+Time slot   1---------------------------------
+	Loaded a process at input/proc/s4, PID: 1 PRIO: 4
+	CPU 0: Dispatched process  1 at 1
+CURRENT TIME 1 CALC 1
+Time slot   2---------------------------------
+CURRENT TIME 2 CALC 1
+	Loaded a process at input/proc/s3, PID: 2 PRIO: 3
+Time slot   3---------------------------------
+	CPU 0: Put process  1 to run queue at 3
+	CPU 0: Dispatched process  2 at 3
+CURRENT TIME 3 CALC 2
+Time slot   4---------------------------------
+CURRENT TIME 4 CALC 2
+	Loaded a process at input/proc/m1s, PID: 3 PRIO: 2
+Time slot   5---------------------------------
+	CPU 0: Put process  2 to run queue at 5
+	CPU 0: Dispatched process  3 at 5
+CURRENT TIME 5 ALLOC 3
+Time slot   6---------------------------------
+CURRENT TIME 6 ALLOC 3
+	Loaded a process at input/proc/s2, PID: 4 PRIO: 3
+Time slot   7---------------------------------
+	CPU 0: Put process  3 to run queue at 7
+	CPU 0: Dispatched process  3 at 7
+CURRENT TIME 7 FREE 3
+	Loaded a process at input/proc/m0s, PID: 5 PRIO: 3
+Time slot   8---------------------------------
+CURRENT TIME 8 ALLOC 3
+Time slot   9---------------------------------
+	CPU 0: Put process  3 to run queue at 9
+	CPU 0: Dispatched process  3 at 9
+CURRENT TIME 9 MALLOC 3
+	Loaded a process at input/proc/p1s, PID: 6 PRIO: 2
+Time slot  10---------------------------------
+CURRENT TIME 10 FREE 3
+Time slot  11---------------------------------
+	CPU 0: Put process  3 to run queue at 11
+	CPU 0: Dispatched process  6 at 11
+CURRENT TIME 11 CALC 6
+	Loaded a process at input/proc/s0, PID: 7 PRIO: 1
+Time slot  12---------------------------------
+CURRENT TIME 12 CALC 6
+Time slot  13---------------------------------
+	CPU 0: Put process  6 to run queue at 13
+	CPU 0: Dispatched process  7 at 13
+CURRENT TIME 13 CALC 7
+Time slot  14---------------------------------
+CURRENT TIME 14 CALC 7
+Time slot  15---------------------------------
+	CPU 0: Put process  7 to run queue at 15
+	CPU 0: Dispatched process  7 at 15
+CURRENT TIME 15 CALC 7
+Time slot  16---------------------------------
+CURRENT TIME 16 CALC 7
+	Loaded a process at input/proc/s1, PID: 8 PRIO: 0
+Time slot  17---------------------------------
+	CPU 0: Put process  7 to run queue at 17
+	CPU 0: Dispatched process  8 at 17
+CURRENT TIME 17 CALC 8
+Time slot  18---------------------------------
+CURRENT TIME 18 CALC 8
+Time slot  19---------------------------------
+	CPU 0: Put process  8 to run queue at 19
+	CPU 0: Dispatched process  8 at 19
+CURRENT TIME 19 CALC 8
+Time slot  20---------------------------------
+CURRENT TIME 20 CALC 8
+Time slot  21---------------------------------
+	CPU 0: Put process  8 to run queue at 21
+	CPU 0: Dispatched process  8 at 21
+CURRENT TIME 21 CALC 8
+Time slot  22---------------------------------
+CURRENT TIME 22 CALC 8
+Time slot  23---------------------------------
+	CPU 0: Put process  8 to run queue at 23
+	CPU 0: Dispatched process  8 at 23
+CURRENT TIME 23 CALC 8
+Time slot  24---------------------------------
+	CPU 0: Processed  8 has finished at 24
+	CPU 0: Dispatched process  7 at 24
+CURRENT TIME 24 CALC 7
+Time slot  25---------------------------------
+CURRENT TIME 25 CALC 7
+Time slot  26---------------------------------
+	CPU 0: Put process  7 to run queue at 26
+	CPU 0: Dispatched process  7 at 26
+CURRENT TIME 26 CALC 7
+Time slot  27---------------------------------
+CURRENT TIME 27 CALC 7
+Time slot  28---------------------------------
+	CPU 0: Put process  7 to run queue at 28
+	CPU 0: Dispatched process  7 at 28
+CURRENT TIME 28 CALC 7
+Time slot  29---------------------------------
+CURRENT TIME 29 CALC 7
+Time slot  30---------------------------------
+	CPU 0: Put process  7 to run queue at 30
+	CPU 0: Dispatched process  7 at 30
+CURRENT TIME 30 CALC 7
+Time slot  31---------------------------------
+CURRENT TIME 31 CALC 7
+Time slot  32---------------------------------
+	CPU 0: Put process  7 to run queue at 32
+	CPU 0: Dispatched process  7 at 32
+CURRENT TIME 32 CALC 7
+Time slot  33---------------------------------
+CURRENT TIME 33 CALC 7
+Time slot  34---------------------------------
+	CPU 0: Put process  7 to run queue at 34
+	CPU 0: Dispatched process  7 at 34
+CURRENT TIME 34 CALC 7
+Time slot  35---------------------------------
+	CPU 0: Processed  7 has finished at 35
+	CPU 0: Dispatched process  3 at 35
+CURRENT TIME 35 FREE 3
+Time slot  36---------------------------------
+	CPU 0: Processed  3 has finished at 36
+	CPU 0: Dispatched process  6 at 36
+CURRENT TIME 36 CALC 6
+Time slot  37---------------------------------
+CURRENT TIME 37 CALC 6
+Time slot  38---------------------------------
+	CPU 0: Put process  6 to run queue at 38
+	CPU 0: Dispatched process  6 at 38
+CURRENT TIME 38 CALC 6
+Time slot  39---------------------------------
+CURRENT TIME 39 CALC 6
+Time slot  40---------------------------------
+	CPU 0: Put process  6 to run queue at 40
+	CPU 0: Dispatched process  6 at 40
+CURRENT TIME 40 CALC 6
+Time slot  41---------------------------------
+CURRENT TIME 41 CALC 6
+Time slot  42---------------------------------
+	CPU 0: Put process  6 to run queue at 42
+	CPU 0: Dispatched process  6 at 42
+CURRENT TIME 42 CALC 6
+Time slot  43---------------------------------
+CURRENT TIME 43 CALC 6
+Time slot  44---------------------------------
+	CPU 0: Processed  6 has finished at 44
+	CPU 0: Dispatched process  2 at 44
+CURRENT TIME 44 CALC 2
+Time slot  45---------------------------------
+CURRENT TIME 45 CALC 2
+Time slot  46---------------------------------
+	CPU 0: Put process  2 to run queue at 46
+	CPU 0: Dispatched process  4 at 46
+CURRENT TIME 46 CALC 4
+Time slot  47---------------------------------
+CURRENT TIME 47 CALC 4
+Time slot  48---------------------------------
+	CPU 0: Put process  4 to run queue at 48
+	CPU 0: Dispatched process  5 at 48
+CURRENT TIME 48 ALLOC 5
+Time slot  49---------------------------------
+CURRENT TIME 49 ALLOC 5
+Time slot  50---------------------------------
+	CPU 0: Put process  5 to run queue at 50
+	CPU 0: Dispatched process  2 at 50
+CURRENT TIME 50 CALC 2
+Time slot  51---------------------------------
+CURRENT TIME 51 CALC 2
+Time slot  52---------------------------------
+	CPU 0: Put process  2 to run queue at 52
+	CPU 0: Dispatched process  4 at 52
+CURRENT TIME 52 CALC 4
+Time slot  53---------------------------------
+CURRENT TIME 53 CALC 4
+Time slot  54---------------------------------
+	CPU 0: Put process  4 to run queue at 54
+	CPU 0: Dispatched process  5 at 54
+CURRENT TIME 54 FREE 5
+Time slot  55---------------------------------
+CURRENT TIME 55 ALLOC 5
+Time slot  56---------------------------------
+	CPU 0: Put process  5 to run queue at 56
+	CPU 0: Dispatched process  2 at 56
+CURRENT TIME 56 CALC 2
+Time slot  57---------------------------------
+CURRENT TIME 57 CALC 2
+Time slot  58---------------------------------
+	CPU 0: Put process  2 to run queue at 58
+	CPU 0: Dispatched process  4 at 58
+CURRENT TIME 58 CALC 4
+Time slot  59---------------------------------
+CURRENT TIME 59 CALC 4
+Time slot  60---------------------------------
+	CPU 0: Put process  4 to run queue at 60
+	CPU 0: Dispatched process  5 at 60
+CURRENT TIME 60 MALLOC 5
+Time slot  61---------------------------------
+CURRENT TIME 61 WRITE 5
+write region=1 offset=20 value=102
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000003
+00000004: 80000002
+print_pgtbl for vmaid 1: 3145727 - 3145472
+00049148: 80000004
+frame: 4----------------------
+frame: 2----------------------
+frame: 3----------------------
+frame: 0----------------------
+frame: 1----------------------
+Time slot  62---------------------------------
+	CPU 0: Put process  5 to run queue at 62
+	CPU 0: Dispatched process  2 at 62
+CURRENT TIME 62 CALC 2
+Time slot  63---------------------------------
+CURRENT TIME 63 CALC 2
+Time slot  64---------------------------------
+	CPU 0: Put process  2 to run queue at 64
+	CPU 0: Dispatched process  4 at 64
+CURRENT TIME 64 CALC 4
+Time slot  65---------------------------------
+CURRENT TIME 65 CALC 4
+Time slot  66---------------------------------
+	CPU 0: Put process  4 to run queue at 66
+	CPU 0: Dispatched process  5 at 66
+CURRENT TIME 66 WRITE 5
+write region=2 offset=1000 value=1
+print_pgtbl for vmaid 0: 0 - 511
+00000000: 80000003
+00000004: 80000002
+print_pgtbl for vmaid 1: 3145727 - 3145472
+00049148: 80000004
+frame: 4----------------------
+frame: 2----------------------
+address 0x0000023f: 102
+frame: 3----------------------
+frame: 0----------------------
+frame: 1----------------------
+Invalid
+Time slot  67---------------------------------
+	CPU 0: Processed  5 has finished at 67
+	CPU 0: Dispatched process  2 at 67
+CURRENT TIME 67 CALC 2
+Time slot  68---------------------------------
+	CPU 0: Processed  2 has finished at 68
+	CPU 0: Dispatched process  4 at 68
+CURRENT TIME 68 CALC 4
+Time slot  69---------------------------------
+CURRENT TIME 69 CALC 4
+Time slot  70---------------------------------
+	CPU 0: Put process  4 to run queue at 70
+	CPU 0: Dispatched process  4 at 70
+CURRENT TIME 70 CALC 4
+Time slot  71---------------------------------
+CURRENT TIME 71 CALC 4
+Time slot  72---------------------------------
+	CPU 0: Processed  4 has finished at 72
+	CPU 0: Dispatched process  1 at 72
+CURRENT TIME 72 CALC 1
+Time slot  73---------------------------------
+CURRENT TIME 73 CALC 1
+Time slot  74---------------------------------
+	CPU 0: Put process  1 to run queue at 74
+	CPU 0: Dispatched process  1 at 74
+CURRENT TIME 74 CALC 1
+Time slot  75---------------------------------
+CURRENT TIME 75 CALC 1
+Time slot  76---------------------------------
+	CPU 0: Put process  1 to run queue at 76
+	CPU 0: Dispatched process  1 at 76
+CURRENT TIME 76 CALC 1
+Time slot  77---------------------------------
+CURRENT TIME 77 CALC 1
+Time slot  78---------------------------------
+	CPU 0: Put process  1 to run queue at 78
+	CPU 0: Dispatched process  1 at 78
+CURRENT TIME 78 CALC 1
+Time slot  79---------------------------------
+CURRENT TIME 79 CALC 1
+Time slot  80---------------------------------
+	CPU 0: Put process  1 to run queue at 80
+	CPU 0: Dispatched process  1 at 80
+CURRENT TIME 80 CALC 1
+Time slot  81---------------------------------
+CURRENT TIME 81 CALC 1
+Time slot  82---------------------------------
+	CPU 0: Put process  1 to run queue at 82
+	CPU 0: Dispatched process  1 at 82
+CURRENT TIME 82 CALC 1
+Time slot  83---------------------------------
+CURRENT TIME 83 CALC 1
+Time slot  84---------------------------------
+	CPU 0: Put process  1 to run queue at 84
+	CPU 0: Dispatched process  1 at 84
+CURRENT TIME 84 CALC 1
+Time slot  85---------------------------------
+CURRENT TIME 85 CALC 1
+Time slot  86---------------------------------
+	CPU 0: Put process  1 to run queue at 86
+	CPU 0: Dispatched process  1 at 86
+CURRENT TIME 86 CALC 1
+Time slot  87---------------------------------
+CURRENT TIME 87 CALC 1
+Time slot  88---------------------------------
+	CPU 0: Put process  1 to run queue at 88
+	CPU 0: Dispatched process  1 at 88
+CURRENT TIME 88 CALC 1
+Time slot  89---------------------------------
+CURRENT TIME 89 CALC 1
+Time slot  90---------------------------------
+	CPU 0: Put process  1 to run queue at 90
+	CPU 0: Dispatched process  1 at 90
+CURRENT TIME 90 CALC 1
+Time slot  91---------------------------------
+CURRENT TIME 91 CALC 1
+Time slot  92---------------------------------
+	CPU 0: Put process  1 to run queue at 92
+	CPU 0: Dispatched process  1 at 92
+CURRENT TIME 92 CALC 1
+Time slot  93---------------------------------
+CURRENT TIME 93 CALC 1
+Time slot  94---------------------------------
+	CPU 0: Put process  1 to run queue at 94
+	CPU 0: Dispatched process  1 at 94
+CURRENT TIME 94 CALC 1
+Time slot  95---------------------------------
+CURRENT TIME 95 CALC 1
+Time slot  96---------------------------------
+	CPU 0: Put process  1 to run queue at 96
+	CPU 0: Dispatched process  1 at 96
+CURRENT TIME 96 CALC 1
+Time slot  97---------------------------------
+CURRENT TIME 97 CALC 1
+Time slot  98---------------------------------
+	CPU 0: Put process  1 to run queue at 98
+	CPU 0: Dispatched process  1 at 98
+CURRENT TIME 98 CALC 1
+Time slot  99---------------------------------
+CURRENT TIME 99 CALC 1
+Time slot 100---------------------------------
+	CPU 0: Processed  1 has finished at 100
+	CPU 0 stopped at 100
